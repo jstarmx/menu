@@ -1,0 +1,17 @@
+CACHE MANIFEST
+#ver:6/19/2017, 12:44:54 PM
+#plugin:4.8.1
+
+CACHE:
+../vendor.js
+../main.js
+../manifest.js
+../app.css
+../apple-icon-180x180.png
+../favicon.ico
+../android-icon-192x192.png
+../ms-icon-310x310.png
+../
+
+NETWORK:
+*
