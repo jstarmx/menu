@@ -31,6 +31,13 @@ const config = {
         loader: 'babel-loader',
       },
       {
+        test: /\.svg$/,
+        use: {
+          loader: 'svg-as-symbol-loader-fixed-ids',
+          options: { tag: 'svg', height: 0, width: 0 },
+        },
+      },
+      {
         test: /\.scss$/,
         include: paths.STYLES,
         loader: ExtractTextPlugin.extract({

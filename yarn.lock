@@ -5901,6 +5901,14 @@ supports-color@^3.1.0, supports-color@^3.1.1, supports-color@^3.1.2, supports-co
   dependencies:
     has-flag "^1.0.0"
 
+svg-as-symbol-loader-fixed-ids@^1.1.5:
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/svg-as-symbol-loader-fixed-ids/-/svg-as-symbol-loader-fixed-ids-1.1.5.tgz#188f15cee2c4597c80bad301ad18cb196206b8d7"
+  dependencies:
+    loader-utils "0.2.x"
+    xmldom "0.1.22"
+    xpath "0.0.23"
+
 svg-tags@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/svg-tags/-/svg-tags-1.0.0.tgz#58f71cee3bd519b59d4b2a843b6c7de64ac04764"
@@ -6404,6 +6412,14 @@ write@^0.2.1:
 xml-name-validator@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/xml-name-validator/-/xml-name-validator-2.0.1.tgz#4d8b8f1eccd3419aa362061becef515e1e559635"
+
+xmldom@0.1.22:
+  version "0.1.22"
+  resolved "https://registry.yarnpkg.com/xmldom/-/xmldom-0.1.22.tgz#10de4e5e964981f03c8cc72fadc08d14b6c3aa26"
+
+xpath@0.0.23:
+  version "0.0.23"
+  resolved "https://registry.yarnpkg.com/xpath/-/xpath-0.0.23.tgz#f5e8fdc6bdc7e72885b3234f40cba2669580aafa"
 
 "xtend@>=4.0.0 <4.1.0-0", xtend@^4.0.0:
   version "4.0.1"
