@@ -1,0 +1,31 @@
+.header {
+  background-color: $primary;
+  display: flex;
+  height: 3em;
+  justify-content: flex-end;
+  padding: 0 1em;
+
+  &__item {
+    align-items: center;
+    border-left: 1px solid $tertiary;
+    color: $white;
+    display: flex;
+    justify-content: center;
+    width: 4em;
+
+    &:last-child {
+      border-right: 1px solid $tertiary;
+    }
+
+    &--open {
+      background-color: $secondary;
+    }
+  }
+
+  &__button {
+    background: none;
+    border: none;
+    height: 100%;
+    width: 100%;
+  }
+}
