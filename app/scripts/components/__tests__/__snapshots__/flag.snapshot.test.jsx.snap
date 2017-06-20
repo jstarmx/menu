@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<svg
+  className="flag"
+  dangerouslySetInnerHTML={
+    Object {
+      "__html": "<use xlink:href=\\"#en\\"></use>",
+    }
+  }
+/>
+`;

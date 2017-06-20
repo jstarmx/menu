@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<header
+  className="header"
+>
+  <section
+    className="header__item  lang"
+  >
+    <div
+      className="flag-sprite"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "test-file-stub",
+        }
+      }
+    />
+    <button
+      className="header__button"
+      onClick={[Function]}
+    >
+      <svg
+        className="flag"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<use xlink:href=\\"#en\\"></use>",
+          }
+        }
+      />
+    </button>
+  </section>
+  <div
+    className="header__item currency"
+  >
+    <span
+      className="currency__symbol"
+    >
+      £
+    </span>
+  </div>
+</header>
+`;
