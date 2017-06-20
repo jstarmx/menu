@@ -8,6 +8,6 @@ it('has the correct format for all language options', () => {
   const all = languages.popular.concat(languages.all);
 
   all.forEach(language =>
-    expect(Object.keys(language)).toEqual(['name', 'code'])
+    expect(Object.keys(language)).toEqual(['name', 'code', 'id'])
   );
 });

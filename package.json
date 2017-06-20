@@ -18,7 +18,10 @@
       "!**/__coverage__/**",
       "!**.config.js"
     ],
-    "coverageDirectory": "./__coverage__"
+    "coverageDirectory": "./__coverage__",
+    "moduleNameMapper": {
+      "\\.svg$": "<rootDir>/__mocks__/file_mock.js"
+    }
   },
   "devDependencies": {
     "autoprefixer": "^7.1.1",
