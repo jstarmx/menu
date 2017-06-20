@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { bindAll } from 'lodash';
+import closest from 'closest';
 
 import FlagSprite from './flag_sprite';
 import Flag from './flag';
@@ -13,7 +14,21 @@ class Lang extends Component {
       language: languages.popular[0].code,
       open: false,
     };
-    bindAll(this, 'select', 'toggle');
+    bindAll(this, 'documentClick', 'select', 'toggle');
+  }
+
+  componentDidMount() {
+    document.addEventListener('click', this.documentClick, false);
+  }
+
+  componentWillUnmount() {
+    document.removeEventListener('click', this.documentClick, false);
+  }
+
+  documentClick(event) {
+    if (!closest(event.target, '.lang') && this.state.open) {
+      this.setState({ open: false });
+    }
   }
 
   select(code) {
