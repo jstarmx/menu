@@ -1,0 +1,529 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<nav
+  className="lang-popup"
+>
+  <h2
+    className="lang-popup__heading"
+  >
+    Select Language
+    <button
+      className="lang-popup__close"
+      onClick={[Function]}
+    >
+      <img
+        alt="Close language menu"
+        className="lang-popup__icon"
+        src="x.svg"
+      />
+    </button>
+  </h2>
+  <div
+    className="lang-popup__menu"
+  >
+    <h3
+      className="lang-popup__subheading"
+    >
+      Popular Languages
+    </h3>
+    <ul
+      className="lang-popup__list"
+    >
+      <li
+        className="lang-popup__item "
+      >
+        <button
+          className="lang-popup__button"
+          onClick={[Function]}
+        >
+          <svg
+            className="flag"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<use xlink:href=\\"#en\\"></use>",
+              }
+            }
+          />
+          <span
+            className="lang-popup__label"
+          >
+            English
+          </span>
+        </button>
+      </li>
+      <li
+        className="lang-popup__item "
+      >
+        <button
+          className="lang-popup__button"
+          onClick={[Function]}
+        >
+          <svg
+            className="flag"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<use xlink:href=\\"#fr\\"></use>",
+              }
+            }
+          />
+          <span
+            className="lang-popup__label"
+          >
+            Français
+          </span>
+        </button>
+      </li>
+      <li
+        className="lang-popup__item lang-popup__item--active"
+      >
+        <button
+          className="lang-popup__button"
+          onClick={[Function]}
+        >
+          <svg
+            className="flag"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<use xlink:href=\\"#de\\"></use>",
+              }
+            }
+          />
+          <span
+            className="lang-popup__label"
+          >
+            Deutsch
+          </span>
+        </button>
+      </li>
+      <li
+        className="lang-popup__item "
+      >
+        <button
+          className="lang-popup__button"
+          onClick={[Function]}
+        >
+          <svg
+            className="flag"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<use xlink:href=\\"#es\\"></use>",
+              }
+            }
+          />
+          <span
+            className="lang-popup__label"
+          >
+            Español
+          </span>
+        </button>
+      </li>
+      <li
+        className="lang-popup__item "
+      >
+        <button
+          className="lang-popup__button"
+          onClick={[Function]}
+        >
+          <svg
+            className="flag"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<use xlink:href=\\"#it\\"></use>",
+              }
+            }
+          />
+          <span
+            className="lang-popup__label"
+          >
+            Italiano
+          </span>
+        </button>
+      </li>
+      <li
+        className="lang-popup__item "
+      >
+        <button
+          className="lang-popup__button"
+          onClick={[Function]}
+        >
+          <svg
+            className="flag"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<use xlink:href=\\"#pl\\"></use>",
+              }
+            }
+          />
+          <span
+            className="lang-popup__label"
+          >
+            Polski
+          </span>
+        </button>
+      </li>
+    </ul>
+    <h3
+      className="lang-popup__subheading"
+    >
+      All Languages
+    </h3>
+    <ul
+      className="lang-popup__list"
+    >
+      <li
+        className="lang-popup__item "
+      >
+        <button
+          className="lang-popup__button"
+          onClick={[Function]}
+        >
+          <svg
+            className="flag"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<use xlink:href=\\"#bg\\"></use>",
+              }
+            }
+          />
+          <span
+            className="lang-popup__label"
+          >
+            Български език
+          </span>
+        </button>
+      </li>
+      <li
+        className="lang-popup__item "
+      >
+        <button
+          className="lang-popup__button"
+          onClick={[Function]}
+        >
+          <svg
+            className="flag"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<use xlink:href=\\"#cs\\"></use>",
+              }
+            }
+          />
+          <span
+            className="lang-popup__label"
+          >
+            Ceština
+          </span>
+        </button>
+      </li>
+      <li
+        className="lang-popup__item "
+      >
+        <button
+          className="lang-popup__button"
+          onClick={[Function]}
+        >
+          <svg
+            className="flag"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<use xlink:href=\\"#dk\\"></use>",
+              }
+            }
+          />
+          <span
+            className="lang-popup__label"
+          >
+            Dansk
+          </span>
+        </button>
+      </li>
+      <li
+        className="lang-popup__item "
+      >
+        <button
+          className="lang-popup__button"
+          onClick={[Function]}
+        >
+          <svg
+            className="flag"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<use xlink:href=\\"#fi\\"></use>",
+              }
+            }
+          />
+          <span
+            className="lang-popup__label"
+          >
+            suomi, suomen kieli
+          </span>
+        </button>
+      </li>
+      <li
+        className="lang-popup__item "
+      >
+        <button
+          className="lang-popup__button"
+          onClick={[Function]}
+        >
+          <svg
+            className="flag"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<use xlink:href=\\"#hu\\"></use>",
+              }
+            }
+          />
+          <span
+            className="lang-popup__label"
+          >
+            Magyar
+          </span>
+        </button>
+      </li>
+      <li
+        className="lang-popup__item "
+      >
+        <button
+          className="lang-popup__button"
+          onClick={[Function]}
+        >
+          <svg
+            className="flag"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<use xlink:href=\\"#id\\"></use>",
+              }
+            }
+          />
+          <span
+            className="lang-popup__label"
+          >
+            Bahasa Indonesia
+          </span>
+        </button>
+      </li>
+      <li
+        className="lang-popup__item "
+      >
+        <button
+          className="lang-popup__button"
+          onClick={[Function]}
+        >
+          <svg
+            className="flag"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<use xlink:href=\\"#jp\\"></use>",
+              }
+            }
+          />
+          <span
+            className="lang-popup__label"
+          >
+            日本語
+          </span>
+        </button>
+      </li>
+      <li
+        className="lang-popup__item "
+      >
+        <button
+          className="lang-popup__button"
+          onClick={[Function]}
+        >
+          <svg
+            className="flag"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<use xlink:href=\\"#nl\\"></use>",
+              }
+            }
+          />
+          <span
+            className="lang-popup__label"
+          >
+            Nederlands, Vlaams
+          </span>
+        </button>
+      </li>
+      <li
+        className="lang-popup__item "
+      >
+        <button
+          className="lang-popup__button"
+          onClick={[Function]}
+        >
+          <svg
+            className="flag"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<use xlink:href=\\"#no\\"></use>",
+              }
+            }
+          />
+          <span
+            className="lang-popup__label"
+          >
+            Norsk
+          </span>
+        </button>
+      </li>
+      <li
+        className="lang-popup__item "
+      >
+        <button
+          className="lang-popup__button"
+          onClick={[Function]}
+        >
+          <svg
+            className="flag"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<use xlink:href=\\"#pt\\"></use>",
+              }
+            }
+          />
+          <span
+            className="lang-popup__label"
+          >
+            Português
+          </span>
+        </button>
+      </li>
+      <li
+        className="lang-popup__item "
+      >
+        <button
+          className="lang-popup__button"
+          onClick={[Function]}
+        >
+          <svg
+            className="flag"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<use xlink:href=\\"#ro\\"></use>",
+              }
+            }
+          />
+          <span
+            className="lang-popup__label"
+          >
+            Română
+          </span>
+        </button>
+      </li>
+      <li
+        className="lang-popup__item "
+      >
+        <button
+          className="lang-popup__button"
+          onClick={[Function]}
+        >
+          <svg
+            className="flag"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<use xlink:href=\\"#ru\\"></use>",
+              }
+            }
+          />
+          <span
+            className="lang-popup__label"
+          >
+            Русский
+          </span>
+        </button>
+      </li>
+      <li
+        className="lang-popup__item "
+      >
+        <button
+          className="lang-popup__button"
+          onClick={[Function]}
+        >
+          <svg
+            className="flag"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<use xlink:href=\\"#sk\\"></use>",
+              }
+            }
+          />
+          <span
+            className="lang-popup__label"
+          >
+            Slovenská
+          </span>
+        </button>
+      </li>
+      <li
+        className="lang-popup__item "
+      >
+        <button
+          className="lang-popup__button"
+          onClick={[Function]}
+        >
+          <svg
+            className="flag"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<use xlink:href=\\"#sv\\"></use>",
+              }
+            }
+          />
+          <span
+            className="lang-popup__label"
+          >
+            Svenska
+          </span>
+        </button>
+      </li>
+      <li
+        className="lang-popup__item "
+      >
+        <button
+          className="lang-popup__button"
+          onClick={[Function]}
+        >
+          <svg
+            className="flag"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<use xlink:href=\\"#cn\\"></use>",
+              }
+            }
+          />
+          <span
+            className="lang-popup__label"
+          >
+            简体中文
+          </span>
+        </button>
+      </li>
+      <li
+        className="lang-popup__item "
+      >
+        <button
+          className="lang-popup__button"
+          onClick={[Function]}
+        >
+          <svg
+            className="flag"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<use xlink:href=\\"#cn\\"></use>",
+              }
+            }
+          />
+          <span
+            className="lang-popup__label"
+          >
+            繁體中文
+          </span>
+        </button>
+      </li>
+    </ul>
+  </div>
+</nav>
+`;

@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<li
+  className="lang-popup__item lang-popup__item--active"
+>
+  <button
+    className="lang-popup__button"
+    onClick={[Function]}
+  >
+    <svg
+      className="flag"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "<use xlink:href=\\"#it\\"></use>",
+        }
+      }
+    />
+    <span
+      className="lang-popup__label"
+    >
+      Italiano
+    </span>
+  </button>
+</li>
+`;
