@@ -1,5 +1,5 @@
 CACHE MANIFEST
-#ver:6/20/2017, 2:56:15 PM
+#ver:6/21/2017, 12:03:32 AM
 #plugin:4.8.1
 
 CACHE:
@@ -7,10 +7,10 @@ CACHE:
 ../main.js
 ../manifest.js
 ../app.css
-../apple-icon-180x180.png
-../android-icon-192x192.png
 ../favicon.ico
+../apple-icon-180x180.png
 ../flags-sprite.svg
+../android-icon-192x192.png
 ../ms-icon-310x310.png
 ../x.svg
 ../
